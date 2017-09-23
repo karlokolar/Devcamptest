@@ -46,6 +46,4 @@ class PortfoliosController < ApplicationController
       format.html { redirect_to portfolios_path, notice: 'Portfolio item was successfully destroyed.' }
     end
   end
-
-
 end
