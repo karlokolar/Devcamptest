@@ -65,7 +65,7 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.6.1)
-    evilgenius_view_tool (0.1.0)
+    evilgenius_view_tool (0.1.1)
     execjs (2.7.0)
     ffi (1.9.18)
     friendly_id (5.1.0)
@@ -196,7 +196,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.3)
-  evilgenius_view_tool (~> 0.1.0)
+  evilgenius_view_tool (~> 0.1.1)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
