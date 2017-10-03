@@ -55,6 +55,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    EvilgeniusViewTool::Renderer.copyright 'Evil Genius', 'All rights reserved'
+    EvilgeniusViewTool::Renderer.copyright 'Evil Genius', ' - All rights reserved'
   end
 end
