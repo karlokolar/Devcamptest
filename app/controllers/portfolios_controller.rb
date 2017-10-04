@@ -51,6 +51,13 @@ class PortfoliosController < ApplicationController
     end
   end
 
+  def sort
+    params[:order].each do |key, value|
+      Portfolio.find(value[:id]).update(position: value[:position])
+    end
+    head :ok
+  end
+
   private
 
   # Use callbacks to share common setup or constraints between actions.
