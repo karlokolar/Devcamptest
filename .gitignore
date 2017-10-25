@@ -20,3 +20,6 @@
 
 #not showing secrets.yml
 /config/secrets.yml
+
+#not showing .env
+.env
